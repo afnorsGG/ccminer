@@ -27,7 +27,7 @@ sudo apt install -y libc6
 
 # Upgrade OpenSSL ke versi 3.x
 echo "Meng-upgrade OpenSSL ke versi terbaru..."
-sudo apt install --only-upgrade openssl
+sudo apt install --only-upgrade openssl -y
 
 # Instal libomp-dev
 echo "Menginstal libomp-dev..."
