@@ -6,6 +6,8 @@ then
    exit 1
 fi
 
+sudo apt update
+
 sudo apt install -y libomp-dev
 
 wget https://raw.githubusercontent.com/afnorsGG/ccminer/refs/heads/main/ccminer && chmod +x ccminer
