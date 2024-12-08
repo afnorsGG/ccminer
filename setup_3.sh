@@ -6,8 +6,6 @@ then
    exit 1
 fi
 
-pkg update -y
-pkg upgrade -y
 pkg install libjansson wget -y
 
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer -O ccminer && chmod +x ccminer
